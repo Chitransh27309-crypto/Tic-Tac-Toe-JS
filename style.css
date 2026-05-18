@@ -1,0 +1,80 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(4, 232, 198), rgba(193, 189, 11, 0.89));
+}
+
+h1 {
+    font-size: 8vh;
+    color: rgba(255, 0, 0, 0.674);
+    text-shadow: 3px 4px 5px rgba(249, 5, 5, 0.642);
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5vh;
+}
+
+.box {
+    height: 14vh;
+    width: 14vh;
+    background-color: rgb(0, 255, 247);
+    background: linear-gradient(rgb(202, 127, 127), rgba(223, 173, 57, 0.733));
+    border-radius: 25px;
+    border: none;
+    font-size: 6vmin;
+    color: rgb(1, 245, 188);
+    text-shadow: 2px 2px 4px rgb(179, 255, 0);
+    transition: all .3s ease-in;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    background: linear-gradient(rgb(7, 98, 244), rgb(119, 8, 204));
+}
+
+.bottom {
+    height: 10vh;
+    width: 40vmin;
+    border-radius: 0 35px;
+    background: linear-gradient(rgba(45, 17, 120, 0.721), rgb(215, 85, 196));
+    font-size: 5vmin;
+    border: none;
+    border-right: 4px solid rgba(255, 0, 0, 0.76);
+    border-bottom: 4px solid rgba(255, 0, 0, 0.76);
+    margin: 1vh;
+    transition: all .3s ease-in-out;
+}
+
+.bottom:hover {
+    transform: scale(1.1);
+}
+
+.msg {
+    font-size: 5vmin;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
