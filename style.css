@@ -83,8 +83,8 @@ h1 {
 @media(max-width:468px){
     
 .game {
-    height: 60vw;
-    width: 60vw;
+    height: 80vw;
+    width: 80vw;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -92,19 +92,22 @@ h1 {
     gap: 5vw;
 }
 .box {
-    height: 14vw;
-    width: 14vw;
+    height: 20vw;
+    width: 20vw;
     border-radius:4vw;
+    font-size: 10vw;
 }
 .container{
     height: 60vh;
 }
 .bottom {
     border-radius: 0 25px;
-    border-right: 4px solid rgba(255, 0, 0, 0.76);
-    border-bottom: 4px solid rgba(255, 0, 0, 0.76);
+    height: 15vw;
+    width: 50vw;
+    font-size: 9vw;
 }
 .msg-container{
     margin-top: 2vw;
+    font-size: 10vw;
 }
 }
